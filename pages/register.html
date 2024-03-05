@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Store</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-container">
+            <a class="logo-login" href="../index.html">
+                <div class="logo-div">
+                    <img class="logo-img" src="../img/logo.png" alt="">
+                    <div class="name-div">
+                        <h1 class="logo-name">Robert</h1>
+                        <h3 class="logo-name">Store</h3>
+                    </div>
+                </div>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <div class="login-form">
+                <h1 class="login-title">Criar</h1>
+                <p id="testEmail" class="form-error"></p>
+                <input class="input-email" type="text" id="email" placeholder="Email">
+                <div class="register-login">
+                    <p>Já tem uma conta?</p><a class="register-link" href="./login.html">Faça login!</a>
+                </div>
+                <div class="continue-div">
+                    <button onclick="criarEmail(); return false" id="continuar-btn" class="continue-btn">Continuar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>
+                &copy;Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+<script src="../js/account.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Store</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-container">
+            <div class="logo-div">
+                <img class="logo-img" src="./img/logo.png" alt="">
+                <div class="name-div">
+                    <h1 class="logo-name">Robert</h1>
+                    <h3 class="logo-name">Store</h3>
+                </div>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="./pages/categories.html" class="nav-link">Categorias</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Carrinho</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="login">
+                <button onclick="window.location.href = '../pages/login.html'" class="login-btn">Login</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="search-nav">
+            <input class="search-input" type="text" name="Search" id="search" placeholder="Procure um produto">
+        </div>
+        <section class="product-container" id="product-container">
+            <div class="loading-logo">
+                <div class="loading-div">
+                    <img class="logo-img" src="./img/logo.png" alt="">
+                    <p>Carregando...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>
+                &copy;Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+<script src="./js/app.js"></script>
+</body>
+</html>
