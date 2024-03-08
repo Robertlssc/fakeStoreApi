@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                 <article class="info-box">
                     <div class="text-info">
                         <h3 class="text-title">Produto:</h3>
-                        <a class="info-name" href="../pages/pages/productId.html?id=${product.id}">${product.title}</a>
+                        <a class="info-name" href="fakeStoreApi/pages/productId.html?id=${product.id}">${product.title}</a>
 
                     </div>
                     <span class="info-price">Preço: $${product.price}</span>
